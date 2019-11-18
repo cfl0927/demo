@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="META-INF:persisitence.xml" value="ae08ddd7-cd0e-485e-91d6-0b3bb3910208" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persisitence.xml" />
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="JpaExam" value="dfe80a9f-93e3-4bdd-883b-8d7c6f5b3a45" />
+          <factory-entry name="booktestPU" value="fe2a8062-2a76-4f8f-ae61-680e7006359a" />
+          <factory-entry name="noname-a.xml@0" value="ae08ddd7-cd0e-485e-91d6-0b3bb3910208" />
+        </datasource-mapping>
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>
